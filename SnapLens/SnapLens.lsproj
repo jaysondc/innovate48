@@ -3,7 +3,7 @@
     "document_id": "VKppCNiNZOJLQXrHY_gD",
     "original_document_id": "VKppCNiNZOJLQXrHY_gD",
     "version": "23",
-    "lastChanged": "1591214690760",
+    "lastChanged": "1591217436053",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -4062,9 +4062,6 @@
                         "Plane"
                     ],
                     [
-                        "Script"
-                    ],
-                    [
                         "Scripts"
                     ],
                     [
@@ -4101,6 +4098,9 @@
                     [
                         "Scripts",
                         "MeshFadeController"
+                    ],
+                    [
+                        "Textures"
                     ],
                     [
                         "Textures",
@@ -4247,6 +4247,9 @@
                         "TweenValue"
                     ],
                     [
+                        "onCardTap"
+                    ],
+                    [
                         "targeting_image"
                     ]
                 ]
@@ -4255,7 +4258,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "1517446348227994:84813",
                     "1535674932783316:1521",
                     "1535734553205080:22864",
                     "1536081319784681:3374",
@@ -4300,8 +4302,7 @@
                     "1537561700210302:533816",
                     "1537561700213191:533907",
                     "1537561700282901:534098",
-                    "1537808582450079:243007",
-                    "1563476100679455:168543"
+                    "1537808582450079:243007"
                 ]
             ]
         },
@@ -4347,6 +4348,7 @@
                     "1563476327847184:305772",
                     "1563476335429395:318124",
                     "1563476351289341:330538",
+                    "1563477407055080:1726616",
                     "1563477491301446:1788019",
                     "1591074702350142:695204",
                     "1591079330879225:1529955"
@@ -14079,7 +14081,7 @@
                     },
                     {
                         "k": "662",
-                        "v": "Script.js"
+                        "v": "onCardTap.js"
                     },
                     {
                         "k": "668",
@@ -15983,7 +15985,7 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-03T11:59:34",
+                        "lastModified": "2020-06-03T13:11:24",
                         "name": "Public",
                         "hash": "6b4a406b6cabd442141f5e0bab04f358",
                         "children": [
@@ -16381,6 +16383,13 @@
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-06-03T10:44:57",
+                                "name": "onCardTap.js",
+                                "hash": "4cb28bb70056449159a9b978a3990d91",
+                                "children": ""
                             },
                             {
                                 "isFolder": "true",
@@ -19540,13 +19549,6 @@
                                         "children": ""
                                     }
                                 ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-06-03T10:44:57",
-                                "name": "Script.js",
-                                "hash": "4cb28bb70056449159a9b978a3990d91",
-                                "children": ""
                             },
                             {
                                 "isFolder": "false",
@@ -29578,7 +29580,7 @@
                         "additional": ""
                     },
                     {
-                        "name": "Script",
+                        "name": "onCardTap",
                         "type": "4",
                         "subtype": "0",
                         "resourceId": "2094",
@@ -29692,13 +29694,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1590972670876426:217596",
-                        "path_list": [
-                            "targeting_image"
-                        ]
-                    }
+                "objects": [
+                    "1536275745925517:76081"
                 ]
             }
         },
