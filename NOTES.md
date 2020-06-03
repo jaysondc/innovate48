@@ -4741,3 +4741,36 @@ Use this API to view transaction history for a specified card, debit card, or pr
 }
 ```
 
+
+
+### Loyalty and Rewards (Scorecard)
+
+Use this API to view Reward Point balance information for a specified card number. You can also view monthly earnings, the month earnings were redeemed, and the balance upon card expiration along with the expiration date. Supported platform(s): Credit and Debit
+
+**Sample Response:**
+
+```yaml
+{
+  "entity": {
+    "accountInfo": {
+      "status": "Active",
+      "currencyType": "USD",
+      "currentBalance": "0.00",
+      "monthEarnings": "0.00",
+      "monthRedeemed": "string",
+      "expireBalance": "0.00",
+      "expireDate": "20191205"
+    }
+  },
+  "metadata": {
+    "messages": [
+      {
+        "code": "00",
+        "text": "SUCCESS",
+        "type": "string",
+        "severity": "string"
+      }
+    ]
+  }
+}
+```
