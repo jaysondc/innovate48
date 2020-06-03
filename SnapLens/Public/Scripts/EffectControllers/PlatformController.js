@@ -42,6 +42,7 @@ if(script.triggerAnimation == "onTap")
 {
     function onTap(eventData)
     {
+        print("onTap function called")
         if(magicAnimPlaying == false)
         {
             playAnimation();
