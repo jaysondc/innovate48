@@ -1,4 +1,4 @@
-Copyright © 2019, Snap Inc. All Rights Reserved.
+Copyright © 2020, Snap Inc. All Rights Reserved.
 By downloading or making any use of the Lens Studio Template and any other files accompanying or referencing this license, 
 you agree to and are bound by the Lens Studio Template License at https://lensstudio.snapchat.com/template-license
 
