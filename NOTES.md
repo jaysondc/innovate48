@@ -39,7 +39,7 @@ Transaction History*
 
 **GET Sample Response:**
 
-```
+```yaml
 {
   "entity": {
     "dateLastUsed": "2019-02-21T14:15:40.210-06:00",
@@ -4624,7 +4624,7 @@ Use this API to view transaction history for a specified card, debit card, or pr
 
 **Sample Response:**
 
-```json
+```yaml
 {
   "sample": {
     "summary": "Sample Response",
