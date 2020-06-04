@@ -3,7 +3,7 @@
     "document_id": "VKppCNiNZOJLQXrHY_gD",
     "original_document_id": "VKppCNiNZOJLQXrHY_gD",
     "version": "23",
-    "lastChanged": "1591246935580",
+    "lastChanged": "1591257265666",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -4094,9 +4094,6 @@
                         "MeshFadeController"
                     ],
                     [
-                        "Textures"
-                    ],
-                    [
                         "Textures",
                         "Capture Camera Target"
                     ],
@@ -4127,6 +4124,10 @@
                     [
                         "Textures",
                         "white"
+                    ],
+                    [
+                        "Textures",
+                        "white1"
                     ],
                     [
                         "Tween"
@@ -4239,6 +4240,9 @@
                         "Tween",
                         "TweenTypes",
                         "TweenValue"
+                    ],
+                    [
+                        "fisResource"
                     ],
                     [
                         "fisResource",
@@ -4365,8 +4369,10 @@
                     "1537561700282901:534098",
                     "1537808582450079:243007",
                     "1591221505883575:1396050",
+                    "1591244571212540:2650605",
                     "1591244586778698:2666907",
-                    "1591244603765223:2683271"
+                    "1591244603765223:2683271",
+                    "1591246362551516:3122141"
                 ]
             ]
         },
@@ -4377,21 +4383,21 @@
             "hints": [
                 ""
             ],
-            "lens": "Marker Template",
+            "lens": "FIS Filter",
             "applicability": "2",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
             "preview_descriptor": {
-                "is_capture": "0",
-                "camera_type": "1"
+                "is_capture": "1",
+                "camera_type": "2"
             },
             "show_snap_ui": "true",
-            "show_sponsored_ui": "false",
+            "show_sponsored_ui": "true",
             "preview_images_project_config": {
                 "back_preview_id": "bundle:PreviewPresets\/Images\/LocationAR\/TCL Chinese Theatre.jpg",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:PreviewPresets\/Images\/Person 1.jpg",
+                "front_preview_id": "bundle:PreviewPresets\/Images\/Person 2.jpg",
                 "front_preview_is_favorite": "false",
                 "spectacles_preview_id": "bundle:PreviewPresets\/Images\/Patio.jpg",
                 "spectacles_preview_is_favorite": "false"
@@ -9964,14 +9970,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "2095",
-                    "uid": "1591210650560519:686037",
-                    "name": "Project Name",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
-                },
-                {
                     "resId": "2096",
                     "uid": "1591210650603368:686067",
                     "name": "Files\/File536.png",
@@ -10087,6 +10085,14 @@
                     "resId": "2113",
                     "uid": "1591244870435079:2750383",
                     "name": "Files\/File569.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2114",
+                    "uid": "1591247027505227:3243532",
+                    "name": "Files\/File571.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -12282,24 +12288,12 @@
                     "v": "Files\/File533.js"
                 },
                 {
-                    "k": "534",
-                    "v": "Files\/File534.oprfb"
-                },
-                {
-                    "k": "535",
-                    "v": "Files\/File535.fbx"
-                },
-                {
                     "k": "536",
                     "v": "Files\/File536.png"
                 },
                 {
                     "k": "537",
                     "v": "Files\/File537.png"
-                },
-                {
-                    "k": "540",
-                    "v": "Files\/File540.oprfb"
                 },
                 {
                     "k": "544",
@@ -12408,6 +12402,14 @@
                 {
                     "k": "570",
                     "v": "Files\/File570.png"
+                },
+                {
+                    "k": "571",
+                    "v": "Files\/File571.png"
+                },
+                {
+                    "k": "572",
+                    "v": "Files\/File572.png"
                 }
             ]
         },
@@ -14337,10 +14339,6 @@
                         "v": "onCardTap.js"
                     },
                     {
-                        "k": "668",
-                        "v": "Project Name.fbx"
-                    },
-                    {
                         "k": "669",
                         "v": "generic_card.png"
                     },
@@ -14407,6 +14405,10 @@
                     {
                         "k": "688",
                         "v": "fisResource\/component_transactions.png"
+                    },
+                    {
+                        "k": "689",
+                        "v": "Textures\/white1.png"
                     }
                 ],
                 "hashes": [
@@ -16256,7 +16258,7 @@
                     },
                     {
                         "k": "652",
-                        "v": "be5a4bc4e6831c01d4681d31aec416b2"
+                        "v": "7923352a1b516b20ef162eaf5a4aa839"
                     },
                     {
                         "k": "653",
@@ -16340,7 +16342,7 @@
                     },
                     {
                         "k": "684",
-                        "v": "deadaacf329994924a6757ed359a2525"
+                        "v": "7fcb10ea3da489a1af69a7cd70fa5b3a"
                     },
                     {
                         "k": "685",
@@ -16348,7 +16350,7 @@
                     },
                     {
                         "k": "686",
-                        "v": "7336e04a67788e7f91e09f0d9a0009fb"
+                        "v": "030ec28aaf5ac34d0ad14a1dfb4ddf5b"
                     },
                     {
                         "k": "687",
@@ -16357,20 +16359,24 @@
                     {
                         "k": "688",
                         "v": "5477fab885854f89e0bd7b53417e0810"
+                    },
+                    {
+                        "k": "689",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-03T21:50:49",
+                        "lastModified": "2020-06-03T22:03:45",
                         "name": "Public",
-                        "hash": "38d86642c388bdb6e7ce23b32391a8f5",
+                        "hash": "a6b9ca8a9a4cbf1b955b8fe40e75a1fd",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T10:44:57",
+                                "lastModified": "2020-06-03T22:03:45",
                                 "name": "Textures",
-                                "hash": "a12d0af2b1ac4a66e122eaa4cf507e65",
+                                "hash": "599ba5cdab4351ae54a32ab23b4ac92e",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -16397,6 +16403,13 @@
                                         "isFolder": "false",
                                         "lastModified": "2020-06-03T10:44:57",
                                         "name": "white0.png",
+                                        "hash": "0c8dcfed2f50bb81ac5276a14967c005",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T22:03:45",
+                                        "name": "white1.png",
                                         "hash": "0c8dcfed2f50bb81ac5276a14967c005",
                                         "children": ""
                                     },
@@ -16439,15 +16452,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T21:27:49",
+                                "lastModified": "2020-06-04T00:51:32",
                                 "name": "fisResource",
-                                "hash": "5bbc3bf75188f716b066e4299943c4b3",
+                                "hash": "42be0c1924800eb1d07db0d788b8e3c6",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T21:27:16",
+                                        "lastModified": "2020-06-04T00:51:19",
                                         "name": "component_spending.png",
-                                        "hash": "7336e04a67788e7f91e09f0d9a0009fb",
+                                        "hash": "030ec28aaf5ac34d0ad14a1dfb4ddf5b",
                                         "children": ""
                                     },
                                     {
@@ -16537,9 +16550,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T20:04:47",
+                                        "lastModified": "2020-06-04T00:48:24",
                                         "name": "fisCard.png",
-                                        "hash": "deadaacf329994924a6757ed359a2525",
+                                        "hash": "7fcb10ea3da489a1af69a7cd70fa5b3a",
                                         "children": ""
                                     },
                                     {
@@ -16799,9 +16812,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T10:44:57",
+                                "lastModified": "2020-06-03T22:03:47",
                                 "name": "Materials",
-                                "hash": "c3519ceb851b06b28b0523ce13ad84af",
+                                "hash": "d29b5b9583ef0110184052257970b088",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -16847,9 +16860,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T10:44:57",
+                                        "lastModified": "2020-06-03T22:03:47",
                                         "name": "Gold.lsmat",
-                                        "hash": "be5a4bc4e6831c01d4681d31aec416b2",
+                                        "hash": "7923352a1b516b20ef162eaf5a4aa839",
                                         "children": ""
                                     },
                                     {
@@ -17005,13 +17018,6 @@
                                 "lastModified": "2020-06-03T10:44:57",
                                 "name": "Behavior.js",
                                 "hash": "b135f6a9cefe77e6bd518dc014fd6257",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-06-03T10:44:57",
-                                "name": "Project Name.fbx",
-                                "hash": "74fb9b9346fca6273a9c92fcdad8016d",
                                 "children": ""
                             },
                             {
@@ -20663,6 +20669,19 @@
                                 "originalId": "532",
                                 "publicId": "661",
                                 "source": "C:\/Users\/TYLER\/Documents\/Lens Studio\/innovate48\/SnapLens\/Public\/Textures\/white0.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "white1",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "2114",
+                                "dependency": "0",
+                                "uid": "1591247027505227:3243532",
+                                "fileId": "571",
+                                "originalId": "572",
+                                "publicId": "689",
+                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/Textures\/white1.png",
                                 "additional": ""
                             }
                         ]
@@ -30044,64 +30063,6 @@
                         "additional": ""
                     },
                     {
-                        "name": "Project Name",
-                        "type": "18",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "2",
-                        "uid": "-1:-1",
-                        "fileId": "535",
-                        "originalId": "18446744073709551615",
-                        "publicId": "668",
-                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/Project Name.fbx",
-                        "additional": {
-                            "materialMapping": ""
-                        },
-                        "resources": [
-                            {
-                                "name": "Meshes",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "1",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": "",
-                                "resources": ""
-                            },
-                            {
-                                "name": "Animations",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "1",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": "",
-                                "resources": ""
-                            },
-                            {
-                                "name": "Project Name",
-                                "type": "12",
-                                "subtype": "-1",
-                                "resourceId": "2095",
-                                "dependency": "1",
-                                "uid": "1591210650560519:686037",
-                                "fileId": "534",
-                                "originalId": "540",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": ""
-                            }
-                        ]
-                    },
-                    {
                         "name": "generic_card",
                         "type": "1",
                         "subtype": "9",
@@ -30163,7 +30124,7 @@
                                 "fileId": "561",
                                 "originalId": "562",
                                 "publicId": "684",
-                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/fisCard.png",
+                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/fisResource\/fisCard.png",
                                 "additional": ""
                             },
                             {
@@ -30330,7 +30291,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1591244997322096:2816930"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
@@ -39294,70 +39259,6 @@
                                 "Component.Animation"
                             ],
                             "v": "1537561700199400:533330"
-                        }
-                    ]
-                },
-                {
-                    "k": "1591210650560519:686037",
-                    "v": [
-                        {
-                            "k": "",
-                            "v": "1591210650556669:686019"
-                        },
-                        {
-                            "k": [
-                                "Project Name | Orientation"
-                            ],
-                            "v": "1591210650558380:686021"
-                        },
-                        {
-                            "k": [
-                                "Project Name | Orientation",
-                                "R"
-                            ],
-                            "v": "1591210650559014:686023"
-                        },
-                        {
-                            "k": [
-                                "Project Name | Orientation",
-                                "a"
-                            ],
-                            "v": "1591210650559621:686029"
-                        },
-                        {
-                            "k": [
-                                "Project Name | Orientation",
-                                "d"
-                            ],
-                            "v": "1591210650560019:686033"
-                        },
-                        {
-                            "k": [
-                                "Project Name | Orientation",
-                                "e"
-                            ],
-                            "v": "1591210650559223:686025"
-                        },
-                        {
-                            "k": [
-                                "Project Name | Orientation",
-                                "r"
-                            ],
-                            "v": "1591210650559821:686031"
-                        },
-                        {
-                            "k": [
-                                "Project Name | Orientation",
-                                "s"
-                            ],
-                            "v": "1591210650560223:686035"
-                        },
-                        {
-                            "k": [
-                                "Project Name | Orientation",
-                                "w"
-                            ],
-                            "v": "1591210650559421:686027"
                         }
                     ]
                 }
