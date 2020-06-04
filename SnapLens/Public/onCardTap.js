@@ -5,14 +5,23 @@ cat and pics are 2 variables declared below in coments, and
 thus any scene object using this script will obtain
 these variables. However, they must be  
 */
-//@input SceneObject spendings 
-//@input SceneObject transactions
+
+//@input SceneObject[] allScenes
 // Set the Image component's texture
 
 //script.image.mainPass.baseTex = script.texture;
-var count = true 
+var count = 0 
 script.spendings.enabled = true;
 script.transactions.enabled = false; 
+
+for(var i = 0; i < script.allScenes.length; i++){
+    if(count == i){
+        script.allScenes[i].enabled = true;
+    }
+    else{
+        script.allScenes[i].enabled = false;
+    }
+}
 // Set the Image's pivot point
 //script.image.pivot = new vec2(1, 1);
 
@@ -21,16 +30,30 @@ script.transactions.enabled = false;
 print("Tap Initialize")
 function onTapped(eventData)
 {
-    
-    if (count){
-        script.spendings.enabled = false;
-        script.transactions.enabled = true;     
-    }    
-    else{
-        script.spendings.enabled = true;
-        script.transactions.enabled = false;  
+   if(eventData.getTapPosition().x > .5){
+        count++;
     }
-   count = !count;
+    else{
+        count--;
+    }
+    
+    if(count >= script.allScenes.length){
+        count = 0;
+    }
+    
+    if(count < 0){
+        count = script.allScenes.length - 1
+    }
+    
+    for(var i = 0; i < script.allScenes.length; i++){
+    if(count == i){
+        script.allScenes[i].enabled = true;
+    }
+    else{
+        script.allScenes[i].enabled = false;
+    }
+}
+   print("value of count : " + count )
     print("Tap Position: (" + eventData.getTapPosition().x + ", " + eventData.getTapPosition().y + ")");
 }
 

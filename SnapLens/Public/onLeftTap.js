@@ -22,15 +22,15 @@ var count = false
 print("LAST ONE")
 function onTapped(eventData)
 {
-    count = !count;
-    if (count){
-    script.image.mainPass.baseTex = script.texture;    
-    }    
-    else{
-    script.image.mainPass.baseTex = script.texture2;      
-    }
-    
- 
+//    count = !count;
+//    if (count){
+//    script.image.mainPass.baseTex = script.texture;    
+//    }    
+//    else{
+//    script.image.mainPass.baseTex = script.texture2;      
+//    }
+//    
+// 
     print("Tap Position: (" + eventData.getTapPosition().x + ", " + eventData.getTapPosition().y + ")");
 }
 

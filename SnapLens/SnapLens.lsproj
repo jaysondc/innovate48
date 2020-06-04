@@ -3,7 +3,7 @@
     "document_id": "VKppCNiNZOJLQXrHY_gD",
     "original_document_id": "VKppCNiNZOJLQXrHY_gD",
     "version": "23",
-    "lastChanged": "1591257265666",
+    "lastChanged": "1591258418784",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -4092,6 +4092,9 @@
                     [
                         "Scripts",
                         "MeshFadeController"
+                    ],
+                    [
+                        "Textures"
                     ],
                     [
                         "Textures",
@@ -16274,7 +16277,7 @@
                     },
                     {
                         "k": "662",
-                        "v": "8cedf50b9e2d63f98ff2104f84cbf5eb"
+                        "v": "577c32518c90600e261e16b0df10ee42"
                     },
                     {
                         "k": "668",
@@ -16298,7 +16301,7 @@
                     },
                     {
                         "k": "673",
-                        "v": "e26cefd8cc905d5232ce2435a9ecb692"
+                        "v": "0b0a6feb9fc4c8a4bceae8ee8b838554"
                     },
                     {
                         "k": "674",
@@ -16368,9 +16371,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-03T22:03:45",
+                        "lastModified": "2020-06-04T01:11:36",
                         "name": "Public",
-                        "hash": "a6b9ca8a9a4cbf1b955b8fe40e75a1fd",
+                        "hash": "afba82e08538a1c0b512125caaf647c5",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -16883,9 +16886,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-06-03T21:50:49",
+                                "lastModified": "2020-06-04T01:11:36",
                                 "name": "onCardTap.js",
-                                "hash": "8cedf50b9e2d63f98ff2104f84cbf5eb",
+                                "hash": "577c32518c90600e261e16b0df10ee42",
                                 "children": ""
                             },
                             {
@@ -20128,9 +20131,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-06-03T15:07:41",
+                                "lastModified": "2020-06-04T00:59:25",
                                 "name": "onLeftTap.js",
-                                "hash": "e26cefd8cc905d5232ce2435a9ecb692",
+                                "hash": "0b0a6feb9fc4c8a4bceae8ee8b838554",
                                 "children": ""
                             },
                             {
@@ -30291,11 +30294,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1591244997322096:2816930"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
