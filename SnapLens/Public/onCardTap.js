@@ -11,8 +11,6 @@ these variables. However, they must be
 
 //script.image.mainPass.baseTex = script.texture;
 var count = 0 
-script.spendings.enabled = true;
-script.transactions.enabled = false; 
 
 for(var i = 0; i < script.allScenes.length; i++){
     if(count == i){
