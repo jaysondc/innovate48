@@ -3,7 +3,7 @@
     "document_id": "VKppCNiNZOJLQXrHY_gD",
     "original_document_id": "VKppCNiNZOJLQXrHY_gD",
     "version": "23",
-    "lastChanged": "1591217436053",
+    "lastChanged": "1591246935580",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -91,12 +91,6 @@
                         "Cross Hint",
                         "Textures",
                         "7"
-                    ],
-                    [
-                        "Frame 1"
-                    ],
-                    [
-                        "Frame 2"
                     ],
                     [
                         "Magnifying Hint"
@@ -4247,7 +4241,73 @@
                         "TweenValue"
                     ],
                     [
+                        "fisResource",
+                        "component_rewards"
+                    ],
+                    [
+                        "fisResource",
+                        "component_spending"
+                    ],
+                    [
+                        "fisResource",
+                        "component_transactions"
+                    ],
+                    [
+                        "fisResource",
+                        "component_trends"
+                    ],
+                    [
+                        "fisResource",
+                        "fisCard"
+                    ],
+                    [
+                        "fisResource",
+                        "rectangleRoundedOff"
+                    ],
+                    [
+                        "fisResource",
+                        "topHeader"
+                    ],
+                    [
+                        "fisResource",
+                        "topHeader",
+                        "$ 1,876.10"
+                    ],
+                    [
+                        "fisResource",
+                        "topHeader",
+                        "Available Balance"
+                    ],
+                    [
+                        "fisResource",
+                        "topHeader",
+                        "FIS_(company)_Fidelity_National_Information_Services_Inc._Corporate_Logo 1"
+                    ],
+                    [
+                        "fisResource",
+                        "topHeader",
+                        "Group 1"
+                    ],
+                    [
+                        "fisResource",
+                        "topHeader",
+                        "HSA Debit - 0250"
+                    ],
+                    [
+                        "fisResource",
+                        "topHeader",
+                        "June 1st, 2020"
+                    ],
+                    [
+                        "fisResource",
+                        "topHeader",
+                        "rectangelSmall"
+                    ],
+                    [
                         "onCardTap"
+                    ],
+                    [
+                        "onLeftTap"
                     ],
                     [
                         "targeting_image"
@@ -4258,6 +4318,7 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
+                    "1517446348227994:84813",
                     "1535674932783316:1521",
                     "1535734553205080:22864",
                     "1536081319784681:3374",
@@ -4302,7 +4363,10 @@
                     "1537561700210302:533816",
                     "1537561700213191:533907",
                     "1537561700282901:534098",
-                    "1537808582450079:243007"
+                    "1537808582450079:243007",
+                    "1591221505883575:1396050",
+                    "1591244586778698:2666907",
+                    "1591244603765223:2683271"
                 ]
             ]
         },
@@ -9860,14 +9924,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "2084",
-                    "uid": "1591070860606698:78176",
-                    "name": "Files\/File517.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "2089",
                     "uid": "1591076210150199:1042259",
                     "name": "Files\/File524",
@@ -9887,14 +9943,6 @@
                     "resId": "2091",
                     "uid": "1591076990799184:1160501",
                     "name": "Files\/File528.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "2092",
-                    "uid": "1591077299450297:1203045",
-                    "name": "Files\/File529.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -9932,17 +9980,113 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "2097",
-                    "uid": "1591210650639893:686074",
-                    "name": "Files\/File538.exe",
+                    "resId": "2100",
+                    "uid": "1591228774881715:1754887",
+                    "name": "Files\/File544.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
                 },
                 {
-                    "resId": "2098",
-                    "uid": "1591210650680826:686081",
-                    "name": "Files\/File539.exe",
+                    "resId": "2101",
+                    "uid": "1591239979208902:1939076",
+                    "name": "Files\/File545.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2102",
+                    "uid": "1591239979228603:1939083",
+                    "name": "Files\/File547.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2103",
+                    "uid": "1591239979235856:1939090",
+                    "name": "Files\/File549.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2104",
+                    "uid": "1591239979244972:1939097",
+                    "name": "Files\/File551.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2105",
+                    "uid": "1591239979251519:1939104",
+                    "name": "Files\/File553.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2106",
+                    "uid": "1591239979257210:1939111",
+                    "name": "Files\/File555.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2107",
+                    "uid": "1591239979262535:1939118",
+                    "name": "Files\/File557.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2108",
+                    "uid": "1591239979277579:1939125",
+                    "name": "Files\/File559.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2109",
+                    "uid": "1591239979289974:1939132",
+                    "name": "Files\/File561.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2110",
+                    "uid": "1591239979317685:1939139",
+                    "name": "Files\/File563.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2111",
+                    "uid": "1591244870399505:2750369",
+                    "name": "Files\/File565.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2112",
+                    "uid": "1591244870420103:2750376",
+                    "name": "Files\/File567.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2113",
+                    "uid": "1591244870435079:2750383",
+                    "name": "Files\/File569.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -10046,6 +10190,20 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1591241344995928:2136504",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -10077,7 +10235,26 @@
                 "20": "1591075950138316:975415",
                 "21": "1591076014672554:992180",
                 "22": "1591076990846222:1160513",
-                "23": "1591082128055545:2017033"
+                "23": "1591082128055545:2017033",
+                "24": "1591221150543799:1287545",
+                "25": "1591221505883575:1396050",
+                "26": "1591241344995388:2136502",
+                "27": "1591242166306401:2276541",
+                "28": "1591242444733936:2324701",
+                "29": "1591242602155794:2372617",
+                "30": "1591242643296851:2396381",
+                "31": "1591242724943022:2428491",
+                "32": "1591242926195263:2517143",
+                "33": "1591243063422958:2542100",
+                "34": "1591244571212540:2650605",
+                "35": "1591244692143303:2700088",
+                "36": "1591244891199081:2775062",
+                "37": "1591244997322096:2816930",
+                "38": "1591244997322714:2816932",
+                "39": "1591244997386191:2817057",
+                "40": "1591246362551516:3122141",
+                "41": "1591246362552394:3122143",
+                "42": "1591246362723258:3122268"
             }
         },
         "LayerComponent": {
@@ -12069,14 +12246,6 @@
                     "v": "Files\/File516.png"
                 },
                 {
-                    "k": "517",
-                    "v": "Files\/File517.png"
-                },
-                {
-                    "k": "518",
-                    "v": "Files\/File518.png"
-                },
-                {
                     "k": "519",
                     "v": "Files\/File519"
                 },
@@ -12099,14 +12268,6 @@
                 {
                     "k": "528",
                     "v": "Files\/File528.js"
-                },
-                {
-                    "k": "529",
-                    "v": "Files\/File529.png"
-                },
-                {
-                    "k": "530",
-                    "v": "Files\/File530.png"
                 },
                 {
                     "k": "531",
@@ -12137,16 +12298,116 @@
                     "v": "Files\/File537.png"
                 },
                 {
-                    "k": "538",
-                    "v": "Files\/File538.exe"
-                },
-                {
-                    "k": "539",
-                    "v": "Files\/File539.exe"
-                },
-                {
                     "k": "540",
                     "v": "Files\/File540.oprfb"
+                },
+                {
+                    "k": "544",
+                    "v": "Files\/File544.js"
+                },
+                {
+                    "k": "545",
+                    "v": "Files\/File545.png"
+                },
+                {
+                    "k": "546",
+                    "v": "Files\/File546.png"
+                },
+                {
+                    "k": "547",
+                    "v": "Files\/File547.png"
+                },
+                {
+                    "k": "548",
+                    "v": "Files\/File548.png"
+                },
+                {
+                    "k": "549",
+                    "v": "Files\/File549.png"
+                },
+                {
+                    "k": "550",
+                    "v": "Files\/File550.png"
+                },
+                {
+                    "k": "551",
+                    "v": "Files\/File551.png"
+                },
+                {
+                    "k": "552",
+                    "v": "Files\/File552.png"
+                },
+                {
+                    "k": "553",
+                    "v": "Files\/File553.png"
+                },
+                {
+                    "k": "554",
+                    "v": "Files\/File554.png"
+                },
+                {
+                    "k": "555",
+                    "v": "Files\/File555.png"
+                },
+                {
+                    "k": "556",
+                    "v": "Files\/File556.png"
+                },
+                {
+                    "k": "557",
+                    "v": "Files\/File557.png"
+                },
+                {
+                    "k": "558",
+                    "v": "Files\/File558.png"
+                },
+                {
+                    "k": "559",
+                    "v": "Files\/File559.png"
+                },
+                {
+                    "k": "560",
+                    "v": "Files\/File560.png"
+                },
+                {
+                    "k": "561",
+                    "v": "Files\/File561.png"
+                },
+                {
+                    "k": "562",
+                    "v": "Files\/File562.png"
+                },
+                {
+                    "k": "563",
+                    "v": "Files\/File563.png"
+                },
+                {
+                    "k": "564",
+                    "v": "Files\/File564.png"
+                },
+                {
+                    "k": "565",
+                    "v": "Files\/File565.png"
+                },
+                {
+                    "k": "566",
+                    "v": "Files\/File566.png"
+                },
+                {
+                    "k": "567",
+                    "v": "Files\/File567.png"
+                },
+                {
+                    "k": "568",
+                    "v": "Files\/File568.png"
+                },
+                {
+                    "k": "569",
+                    "v": "Files\/File569.png"
+                },
+                {
+                    "k": "570",
+                    "v": "Files\/File570.png"
                 }
             ]
         },
@@ -14056,10 +14317,6 @@
                         "v": "Tween\/ExampleResources [REMOVE_ME]\/Textures\/TweenImageTextures\/Image.png"
                     },
                     {
-                        "k": "646",
-                        "v": "Frame 1.png"
-                    },
-                    {
                         "k": "651",
                         "v": "Textures\/white.png"
                     },
@@ -14070,10 +14327,6 @@
                     {
                         "k": "653",
                         "v": "Behavior.js"
-                    },
-                    {
-                        "k": "654",
-                        "v": "Frame 2.png"
                     },
                     {
                         "k": "661",
@@ -14092,12 +14345,68 @@
                         "v": "generic_card.png"
                     },
                     {
-                        "k": "670",
-                        "v": "WinSCP-5.17.6-Setup.exe"
+                        "k": "673",
+                        "v": "onLeftTap.js"
                     },
                     {
-                        "k": "671",
-                        "v": "zoc7257_x64.exe"
+                        "k": "674",
+                        "v": "fisResource"
+                    },
+                    {
+                        "k": "675",
+                        "v": "fisResource\/topHeader"
+                    },
+                    {
+                        "k": "676",
+                        "v": "fisResource\/topHeader\/HSA Debit - 0250.png"
+                    },
+                    {
+                        "k": "677",
+                        "v": "fisResource\/topHeader\/Group 1.png"
+                    },
+                    {
+                        "k": "678",
+                        "v": "fisResource\/topHeader\/June 1st, 2020.png"
+                    },
+                    {
+                        "k": "679",
+                        "v": "fisResource\/topHeader\/FIS_(company)_Fidelity_National_Information_Services_Inc._Corporate_Logo 1.png"
+                    },
+                    {
+                        "k": "680",
+                        "v": "fisResource\/topHeader\/Available Balance.png"
+                    },
+                    {
+                        "k": "681",
+                        "v": "fisResource\/topHeader\/$ 1,876.10.png"
+                    },
+                    {
+                        "k": "682",
+                        "v": "fisResource\/rectangleRoundedOff.png"
+                    },
+                    {
+                        "k": "683",
+                        "v": "fisResource\/topHeader\/rectangelSmall.png"
+                    },
+                    {
+                        "k": "684",
+                        "v": "fisResource\/fisCard.png"
+                    },
+                    {
+                        "k": "685",
+                        "v": "fisResource\/component_trends.png"
+                    },
+                    {
+                        "k": "686",
+                        "v": "fisResource\/component_spending.png"
+                    },
+                    {
+                        "k": "687",
+                        "v": "fisResource\/component_rewards.png"
+                    },
+                    {
+                        "k": "688",
+                        "v": "fisResource\/component_transactions.png"
                     }
                 ],
                 "hashes": [
@@ -15887,7 +16196,7 @@
                     },
                     {
                         "k": "632",
-                        "v": "d81ddfe21764c0782f1da7a627d9374a"
+                        "v": "eb84a3df5d071cb12e47dbd9b2d7a63b"
                     },
                     {
                         "k": "633",
@@ -15963,7 +16272,7 @@
                     },
                     {
                         "k": "662",
-                        "v": "4cb28bb70056449159a9b978a3990d91"
+                        "v": "8cedf50b9e2d63f98ff2104f84cbf5eb"
                     },
                     {
                         "k": "668",
@@ -15980,22 +16289,83 @@
                     {
                         "k": "671",
                         "v": "4f7743984692018e9b56e6da01c8a928"
+                    },
+                    {
+                        "k": "672",
+                        "v": "74fb9b9346fca6273a9c92fcdad8016d"
+                    },
+                    {
+                        "k": "673",
+                        "v": "e26cefd8cc905d5232ce2435a9ecb692"
+                    },
+                    {
+                        "k": "674",
+                        "v": "3d3c7d8454644bcfa0f3a9fd7270d574"
+                    },
+                    {
+                        "k": "675",
+                        "v": "b42a588a1e482cef6d1a0981dfab40b4"
+                    },
+                    {
+                        "k": "676",
+                        "v": "bd56d428b7a7970fb72387d03988619d"
+                    },
+                    {
+                        "k": "677",
+                        "v": "366fc7c1757cf054d026f051f9f01b2b"
+                    },
+                    {
+                        "k": "678",
+                        "v": "1899d236b387659ad237bbd876b80333"
+                    },
+                    {
+                        "k": "679",
+                        "v": "f20c7b8d375b35febdc234a01f82446e"
+                    },
+                    {
+                        "k": "680",
+                        "v": "9189a42f3b9f0ba0507786a979315a79"
+                    },
+                    {
+                        "k": "681",
+                        "v": "759f8d440dfea1d51b01acd1e8429b08"
+                    },
+                    {
+                        "k": "682",
+                        "v": "12b1cfe0229362b1b1460b3857afa232"
+                    },
+                    {
+                        "k": "683",
+                        "v": "2f8ac55377c887e95fddd21d760cdf11"
+                    },
+                    {
+                        "k": "684",
+                        "v": "deadaacf329994924a6757ed359a2525"
+                    },
+                    {
+                        "k": "685",
+                        "v": "efe195c28ef1ecce836266465809f406"
+                    },
+                    {
+                        "k": "686",
+                        "v": "7336e04a67788e7f91e09f0d9a0009fb"
+                    },
+                    {
+                        "k": "687",
+                        "v": "69c8db192c463bc64248d84c382b85e0"
+                    },
+                    {
+                        "k": "688",
+                        "v": "5477fab885854f89e0bd7b53417e0810"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-03T13:11:24",
+                        "lastModified": "2020-06-03T21:50:49",
                         "name": "Public",
-                        "hash": "6b4a406b6cabd442141f5e0bab04f358",
+                        "hash": "38d86642c388bdb6e7ce23b32391a8f5",
                         "children": [
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-06-03T10:44:57",
-                                "name": "Frame 2.png",
-                                "hash": "4bfbf381fdc5eb5a6c276ba33da131ca",
-                                "children": ""
-                            },
                             {
                                 "isFolder": "true",
                                 "lastModified": "2020-06-03T10:44:57",
@@ -16068,10 +16438,131 @@
                                 ]
                             },
                             {
+                                "isFolder": "true",
+                                "lastModified": "2020-06-03T21:27:49",
+                                "name": "fisResource",
+                                "hash": "5bbc3bf75188f716b066e4299943c4b3",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T21:27:16",
+                                        "name": "component_spending.png",
+                                        "hash": "7336e04a67788e7f91e09f0d9a0009fb",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T21:27:22",
+                                        "name": "component_rewards.png",
+                                        "hash": "69c8db192c463bc64248d84c382b85e0",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T16:49:51",
+                                        "name": "rectangleRoundedOff.png",
+                                        "hash": "12b1cfe0229362b1b1460b3857afa232",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-06-03T20:06:41",
+                                        "name": "topHeader",
+                                        "hash": "8572701ad5b87460d467f429f8f50484",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-03T19:59:16",
+                                                "name": "HSA Debit - 0250.png",
+                                                "hash": "bd56d428b7a7970fb72387d03988619d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-03T19:59:16",
+                                                "name": "Group 1.png",
+                                                "hash": "366fc7c1757cf054d026f051f9f01b2b",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-03T19:59:16",
+                                                "name": "June 1st, 2020.png",
+                                                "hash": "1899d236b387659ad237bbd876b80333",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-03T19:59:16",
+                                                "name": "FIS_(company)_Fidelity_National_Information_Services_Inc._Corporate_Logo 1.png",
+                                                "hash": "f20c7b8d375b35febdc234a01f82446e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-03T19:56:37",
+                                                "name": "rectangelSmall.png",
+                                                "hash": "2f8ac55377c887e95fddd21d760cdf11",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-03T19:59:16",
+                                                "name": "Available Balance.png",
+                                                "hash": "9189a42f3b9f0ba0507786a979315a79",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-03T19:59:16",
+                                                "name": "$ 1,876.10.png",
+                                                "hash": "759f8d440dfea1d51b01acd1e8429b08",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-03T20:06:19",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T21:27:12",
+                                        "name": "component_transactions.png",
+                                        "hash": "5477fab885854f89e0bd7b53417e0810",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T20:04:47",
+                                        "name": "fisCard.png",
+                                        "hash": "deadaacf329994924a6757ed359a2525",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T20:01:07",
+                                        "name": "component_trends.png",
+                                        "hash": "efe195c28ef1ecce836266465809f406",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T20:06:50",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
                                 "isFolder": "false",
-                                "lastModified": "2020-06-03T11:08:08",
+                                "lastModified": "2020-06-03T14:34:27",
                                 "name": "targeting_image.png",
-                                "hash": "d81ddfe21764c0782f1da7a627d9374a",
+                                "hash": "eb84a3df5d071cb12e47dbd9b2d7a63b",
                                 "children": ""
                             },
                             {
@@ -16307,13 +16798,6 @@
                                 ]
                             },
                             {
-                                "isFolder": "false",
-                                "lastModified": "2020-06-03T10:44:57",
-                                "name": "Frame 1.png",
-                                "hash": "b6d50c9a9a4ced287f20bbcff6a7f008",
-                                "children": ""
-                            },
-                            {
                                 "isFolder": "true",
                                 "lastModified": "2020-06-03T10:44:57",
                                 "name": "Materials",
@@ -16386,14 +16870,14 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-06-03T10:44:57",
+                                "lastModified": "2020-06-03T21:50:49",
                                 "name": "onCardTap.js",
-                                "hash": "4cb28bb70056449159a9b978a3990d91",
+                                "hash": "8cedf50b9e2d63f98ff2104f84cbf5eb",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T10:44:57",
+                                "lastModified": "2020-06-03T16:26:55",
                                 "name": "Magnifying Hint",
                                 "hash": "06e9f1933b2dc4547887a7923b5ba92b",
                                 "children": [
@@ -16421,7 +16905,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-03T10:44:57",
+                                        "lastModified": "2020-06-03T20:16:08",
                                         "name": "Texture",
                                         "hash": "2952ce52dc2899fe61d8f323b797b019",
                                         "children": [
@@ -19501,7 +19985,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T10:44:57",
+                                "lastModified": "2020-06-03T20:16:21",
                                 "name": "Markers [REPLACE_ME]",
                                 "hash": "a884b5208e1b294d265e6111b0d2ab3b",
                                 "children": [
@@ -19635,6 +20119,13 @@
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-06-03T15:07:41",
+                                "name": "onLeftTap.js",
+                                "hash": "e26cefd8cc905d5232ce2435a9ecb692",
+                                "children": ""
                             },
                             {
                                 "isFolder": "true",
@@ -19863,20 +20354,6 @@
                                         "children": ""
                                     }
                                 ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-06-03T10:44:57",
-                                "name": "WinSCP-5.17.6-Setup.exe",
-                                "hash": "a310133e2526bd87afb297ec0eba31c7",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-06-03T10:44:57",
-                                "name": "zoc7257_x64.exe",
-                                "hash": "4f7743984692018e9b56e6da01c8a928",
-                                "children": ""
                             },
                             {
                                 "isFolder": "false",
@@ -29537,20 +30014,7 @@
                         "fileId": "502",
                         "originalId": "503",
                         "publicId": "632",
-                        "source": "\/Users\/e5615775\/Desktop\/Screen Shot 2020-06-03 at 11.07.51 AM.png",
-                        "additional": ""
-                    },
-                    {
-                        "name": "Frame 1",
-                        "type": "1",
-                        "subtype": "9",
-                        "resourceId": "2084",
-                        "dependency": "0",
-                        "uid": "1591070860606698:78176",
-                        "fileId": "517",
-                        "originalId": "518",
-                        "publicId": "646",
-                        "source": "C:\/Users\/jayso\/Downloads\/Frame 1.png",
+                        "source": "\/Users\/e5615775\/Desktop\/Screen Shot 2020-06-03 at 2.34.21 PM.png",
                         "additional": ""
                     },
                     {
@@ -29564,19 +30028,6 @@
                         "originalId": "18446744073709551615",
                         "publicId": "653",
                         "source": "C:\/Users\/TYLER\/AppData\/Local\/Temp\/Lens Studio-rheGCu\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                        "additional": ""
-                    },
-                    {
-                        "name": "Frame 2",
-                        "type": "1",
-                        "subtype": "9",
-                        "resourceId": "2092",
-                        "dependency": "0",
-                        "uid": "1591077299450297:1203045",
-                        "fileId": "529",
-                        "originalId": "530",
-                        "publicId": "654",
-                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/Frame 2.png",
                         "additional": ""
                     },
                     {
@@ -29664,40 +30115,222 @@
                         "additional": ""
                     },
                     {
-                        "name": "WinSCP-5.17.6-Setup",
-                        "type": "7",
+                        "name": "onLeftTap",
+                        "type": "4",
                         "subtype": "0",
-                        "resourceId": "2097",
+                        "resourceId": "2100",
                         "dependency": "0",
-                        "uid": "1591210650639893:686074",
-                        "fileId": "538",
+                        "uid": "1591228774881715:1754887",
+                        "fileId": "544",
                         "originalId": "18446744073709551615",
-                        "publicId": "670",
-                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/WinSCP-5.17.6-Setup.exe",
+                        "publicId": "673",
+                        "source": "C:\/Users\/TYLER\/AppData\/Local\/Temp\/Lens Studio-JVoNro\/\/system\/\/emergencyFiles\/emergencyJs.js",
                         "additional": ""
                     },
                     {
-                        "name": "zoc7257_x64",
-                        "type": "7",
-                        "subtype": "0",
-                        "resourceId": "2098",
+                        "name": "fisResource",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
                         "dependency": "0",
-                        "uid": "1591210650680826:686081",
-                        "fileId": "539",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "671",
-                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/zoc7257_x64.exe",
-                        "additional": ""
+                        "publicId": "674",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "rectangleRoundedOff",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "2107",
+                                "dependency": "0",
+                                "uid": "1591239979262535:1939118",
+                                "fileId": "557",
+                                "originalId": "558",
+                                "publicId": "682",
+                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/rectangleRoundedOff.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "fisCard",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "2109",
+                                "dependency": "0",
+                                "uid": "1591239979289974:1939132",
+                                "fileId": "561",
+                                "originalId": "562",
+                                "publicId": "684",
+                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/fisCard.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "component_trends",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "2110",
+                                "dependency": "0",
+                                "uid": "1591239979317685:1939139",
+                                "fileId": "563",
+                                "originalId": "564",
+                                "publicId": "685",
+                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/component_trends.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "topHeader",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "675",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "HSA Debit - 0250",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "2101",
+                                        "dependency": "0",
+                                        "uid": "1591239979208902:1939076",
+                                        "fileId": "545",
+                                        "originalId": "546",
+                                        "publicId": "676",
+                                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/Project\/HSA Debit - 0250.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Group 1",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "2102",
+                                        "dependency": "0",
+                                        "uid": "1591239979228603:1939083",
+                                        "fileId": "547",
+                                        "originalId": "548",
+                                        "publicId": "677",
+                                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/Project\/Group 1.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "June 1st, 2020",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "2103",
+                                        "dependency": "0",
+                                        "uid": "1591239979235856:1939090",
+                                        "fileId": "549",
+                                        "originalId": "550",
+                                        "publicId": "678",
+                                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/Project\/June 1st, 2020.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "FIS_(company)_Fidelity_National_Information_Services_Inc._Corporate_Logo 1",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "2104",
+                                        "dependency": "0",
+                                        "uid": "1591239979244972:1939097",
+                                        "fileId": "551",
+                                        "originalId": "552",
+                                        "publicId": "679",
+                                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/Project\/FIS_(company)_Fidelity_National_Information_Services_Inc._Corporate_Logo 1.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Available Balance",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "2105",
+                                        "dependency": "0",
+                                        "uid": "1591239979251519:1939104",
+                                        "fileId": "553",
+                                        "originalId": "554",
+                                        "publicId": "680",
+                                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/Project\/Available Balance.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "$ 1,876.10",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "2106",
+                                        "dependency": "0",
+                                        "uid": "1591239979257210:1939111",
+                                        "fileId": "555",
+                                        "originalId": "556",
+                                        "publicId": "681",
+                                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/Project\/$ 1,876.10.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "rectangelSmall",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "2108",
+                                        "dependency": "0",
+                                        "uid": "1591239979277579:1939125",
+                                        "fileId": "559",
+                                        "originalId": "560",
+                                        "publicId": "683",
+                                        "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/resource\/rectangelSmall.png",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "component_spending",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "2111",
+                                "dependency": "0",
+                                "uid": "1591244870399505:2750369",
+                                "fileId": "565",
+                                "originalId": "566",
+                                "publicId": "686",
+                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/fisResource\/component_spending.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "component_rewards",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "2112",
+                                "dependency": "0",
+                                "uid": "1591244870420103:2750376",
+                                "fileId": "567",
+                                "originalId": "568",
+                                "publicId": "687",
+                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/fisResource\/component_rewards.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "component_transactions",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "2113",
+                                "dependency": "0",
+                                "uid": "1591244870435079:2750383",
+                                "fileId": "569",
+                                "originalId": "570",
+                                "publicId": "688",
+                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/fisResource\/component_transactions.png",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1536275745925517:76081"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
