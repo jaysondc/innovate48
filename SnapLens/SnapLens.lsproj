@@ -3,7 +3,7 @@
     "document_id": "VKppCNiNZOJLQXrHY_gD",
     "original_document_id": "VKppCNiNZOJLQXrHY_gD",
     "version": "23",
-    "lastChanged": "1591259221140",
+    "lastChanged": "1591261585542",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -93,9 +93,6 @@
                         "7"
                     ],
                     [
-                        "Magnifying Hint"
-                    ],
-                    [
                         "Magnifying Hint",
                         "Material"
                     ],
@@ -113,10 +110,6 @@
                         "Magnifying Hint",
                         "Material",
                         "search"
-                    ],
-                    [
-                        "Magnifying Hint",
-                        "Script"
                     ],
                     [
                         "Magnifying Hint",
@@ -4056,9 +4049,6 @@
                         "Plane"
                     ],
                     [
-                        "Scripts"
-                    ],
-                    [
                         "Scripts",
                         "EffectControllers"
                     ],
@@ -4311,10 +4301,16 @@
                         "rectangelSmall"
                     ],
                     [
+                        "left"
+                    ],
+                    [
                         "onCardTap"
                     ],
                     [
                         "onLeftTap"
+                    ],
+                    [
+                        "right"
                     ],
                     [
                         "targeting_image"
@@ -4349,7 +4345,6 @@
                     "1536271901293262:265923",
                     "1536272373222552:316830",
                     "1536272373230205:317110",
-                    "1536275745925517:76081",
                     "1536282115014967:142267",
                     "1536282115078555:142674",
                     "1536339501228249:594065",
@@ -10167,6 +10162,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "2123",
+                    "uid": "1591261450533558:320241",
+                    "name": "Files\/File584.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "2124",
+                    "uid": "1591261450691560:320248",
+                    "name": "Files\/File586.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -10267,20 +10278,6 @@
                                     "attachTop": "false"
                                 }
                             }
-                        },
-                        {
-                            "k": "1591241344995928:2136504",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
                         }
                     ],
                     "generalData": ""
@@ -10315,23 +10312,24 @@
                 "23": "1591082128055545:2017033",
                 "24": "1591221150543799:1287545",
                 "25": "1591221505883575:1396050",
-                "26": "1591241344995388:2136502",
-                "27": "1591242166306401:2276541",
-                "28": "1591242444733936:2324701",
-                "29": "1591242602155794:2372617",
-                "30": "1591242643296851:2396381",
-                "31": "1591242724943022:2428491",
-                "32": "1591242926195263:2517143",
-                "33": "1591243063422958:2542100",
-                "34": "1591244571212540:2650605",
-                "35": "1591244692143303:2700088",
-                "36": "1591244891199081:2775062",
-                "37": "1591244997322096:2816930",
-                "38": "1591244997322714:2816932",
-                "39": "1591244997386191:2817057",
-                "40": "1591246362551516:3122141",
-                "41": "1591246362552394:3122143",
-                "42": "1591246362723258:3122268"
+                "26": "1591242166306401:2276541",
+                "27": "1591242444733936:2324701",
+                "28": "1591242602155794:2372617",
+                "29": "1591242643296851:2396381",
+                "30": "1591242724943022:2428491",
+                "31": "1591242926195263:2517143",
+                "32": "1591243063422958:2542100",
+                "33": "1591244571212540:2650605",
+                "34": "1591244692143303:2700088",
+                "35": "1591244891199081:2775062",
+                "36": "1591244997322096:2816930",
+                "37": "1591244997322714:2816932",
+                "38": "1591244997386191:2817057",
+                "39": "1591246362551516:3122141",
+                "40": "1591246362552394:3122143",
+                "41": "1591246362723258:3122268",
+                "42": "1591261351660211:278373",
+                "43": "1591261371447034:295157"
             }
         },
         "LayerComponent": {
@@ -12525,6 +12523,22 @@
                 {
                     "k": "583",
                     "v": "Files\/File583.jpg"
+                },
+                {
+                    "k": "584",
+                    "v": "Files\/File584.png"
+                },
+                {
+                    "k": "585",
+                    "v": "Files\/File585.png"
+                },
+                {
+                    "k": "586",
+                    "v": "Files\/File586.png"
+                },
+                {
+                    "k": "587",
+                    "v": "Files\/File587.png"
                 }
             ]
         },
@@ -14556,6 +14570,14 @@
                     {
                         "k": "697",
                         "v": "targeting_image 2.jpg"
+                    },
+                    {
+                        "k": "698",
+                        "v": "left.png"
+                    },
+                    {
+                        "k": "699",
+                        "v": "right.png"
                     }
                 ],
                 "hashes": [
@@ -16542,14 +16564,22 @@
                     {
                         "k": "697",
                         "v": "49d76465cb903b2e258b46466036428a"
+                    },
+                    {
+                        "k": "698",
+                        "v": "8cb921c18704ffb9ed5e81466ec78c62"
+                    },
+                    {
+                        "k": "699",
+                        "v": "7dab4edaad4421cfaf190b162104f076"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-04T01:24:30",
+                        "lastModified": "2020-06-04T02:04:09",
                         "name": "Public",
-                        "hash": "8ecd66be0679a62e57afdd1a502989b8",
+                        "hash": "d4e07da77bd8369012f1f28a3edae7af",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -16933,6 +16963,13 @@
                                 "lastModified": "2020-06-02T11:51:19",
                                 "name": "generic_card.png",
                                 "hash": "4d0ffb7525a69aa48c290b2d8e2d097f",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-06-04T02:03:40",
+                                "name": "left.png",
+                                "hash": "8cb921c18704ffb9ed5e81466ec78c62",
                                 "children": ""
                             },
                             {
@@ -20198,6 +20235,13 @@
                                 "lastModified": "2020-06-04T01:15:25",
                                 "name": "Resource.ds_store",
                                 "hash": "68c4c02de27549fb66cc1412dedd18c9",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-06-04T02:03:33",
+                                "name": "right.png",
+                                "hash": "7dab4edaad4421cfaf190b162104f076",
                                 "children": ""
                             },
                             {
@@ -30624,6 +30668,32 @@
                         "originalId": "583",
                         "publicId": "697",
                         "source": "C:\/Users\/TYLER\/Documents\/Lens Studio\/innovate48\/SnapLens\/Public\/WIN_20200604_01_22_26_Pro.jpg",
+                        "additional": ""
+                    },
+                    {
+                        "name": "left",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "2123",
+                        "dependency": "0",
+                        "uid": "1591261450533558:320241",
+                        "fileId": "584",
+                        "originalId": "585",
+                        "publicId": "698",
+                        "source": "C:\/Users\/TYLER\/Documents\/Lens Studio\/innovate48\/SnapLens\/Public\/left.png",
+                        "additional": ""
+                    },
+                    {
+                        "name": "right",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "2124",
+                        "dependency": "0",
+                        "uid": "1591261450691560:320248",
+                        "fileId": "586",
+                        "originalId": "587",
+                        "publicId": "699",
+                        "source": "C:\/Users\/TYLER\/Documents\/Lens Studio\/innovate48\/SnapLens\/Public\/right.png",
                         "additional": ""
                     }
                 ]
