@@ -136,16 +136,30 @@ function updateAlpha() {
     switch (currentState) {
         case SCREEN.REWARDS: 
             global.tweenManager.startTween(rewardTitle, "fade out")
-            global.tweenManager.startTween(transactionTitleLeft, "fade in")
+            global.tweenManager.startTween(transactionTitleRight, "fade in")
+        
+            global.tweenManager.startTween(rewardDetail, "fade in")
+            global.tweenManager.startTween(transactionsDetail, "fade out")
 
             break
         case SCREEN.TRANSACTIONS:
             global.tweenManager.startTween(rewardTitle, "fade in")
+            global.tweenManager.startTween(transactionTitleRight, "fade out")
+        
+            global.tweenManager.startTween(spendingTitle, "fade in")
             global.tweenManager.startTween(transactionTitleLeft, "fade out")
+        
+            global.tweenManager.startTween(rewardDetail, "fade out")
+            global.tweenManager.startTween(spendingDetail, "fade out")
+            global.tweenManager.startTween(transactionsDetail, "fade in")
         
             break
         case SCREEN.SPENDING:
+            global.tweenManager.startTween(spendingTitle, "fade out")
+            global.tweenManager.startTween(transactionTitleLeft, "fade in")
 
+            global.tweenManager.startTween(spendingDetail, "fade in")
+            global.tweenManager.startTween(transactionsDetail, "fade out")
             break
     }
     

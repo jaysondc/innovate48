@@ -1,9 +1,9 @@
 {
     "lens_id": "",
-    "document_id": "51V-o1W4YSHnOiewMCeq",
+    "document_id": "8SE3YKxjxKRK7P0BWnDT",
     "original_document_id": "VKppCNiNZOJLQXrHY_gD",
     "version": "23",
-    "lastChanged": "1591325530614",
+    "lastChanged": "1591328029317",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -12680,7 +12680,7 @@
                     },
                     {
                         "k": "662",
-                        "v": "5f6012fc977e961da0885a5d32bb16e2"
+                        "v": "589aa7cbf1b33e6425be721ca8efdb7d"
                     },
                     {
                         "k": "668",
@@ -12760,7 +12760,7 @@
                     },
                     {
                         "k": "687",
-                        "v": "69c8db192c463bc64248d84c382b85e0"
+                        "v": "6f8b38d72a08ca628e40f9ef82e65f50"
                     },
                     {
                         "k": "688",
@@ -12930,9 +12930,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-04T19:47:16",
+                        "lastModified": "2020-06-04T20:18:29",
                         "name": "Public",
-                        "hash": "7a61a45146a38eed8f9356ddb52ef6d7",
+                        "hash": "f343d8df9d2115d5b939548384471128",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -12943,7 +12943,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T19:34:43",
+                                "lastModified": "2020-06-04T20:08:50",
                                 "name": "Cross Hint",
                                 "hash": "fd96bf94c5164b1d9b59dd60cd6c16e7",
                                 "children": [
@@ -12956,7 +12956,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "Material",
                                         "hash": "0776f951c98a7f05085a68dbad31a925",
                                         "children": [
@@ -12978,7 +12978,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "Scripts",
                                         "hash": "639fec591597ee33e59bd44aa4cb54f7",
                                         "children": [
@@ -13000,13 +13000,13 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "Textures",
                                         "hash": "2f8c07c8210c70eb997a27a0aa2fc87a",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "1",
                                                 "hash": "6d3394fbde359dc10c20e8bdf3ad3ee0",
                                                 "children": [
@@ -13028,7 +13028,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "2",
                                                 "hash": "6d3394fbde359dc10c20e8bdf3ad3ee0",
                                                 "children": [
@@ -13050,7 +13050,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "3",
                                                 "hash": "6d3394fbde359dc10c20e8bdf3ad3ee0",
                                                 "children": [
@@ -13072,7 +13072,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "4",
                                                 "hash": "6d3394fbde359dc10c20e8bdf3ad3ee0",
                                                 "children": [
@@ -13094,7 +13094,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "5",
                                                 "hash": "6d3394fbde359dc10c20e8bdf3ad3ee0",
                                                 "children": [
@@ -13116,7 +13116,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "6",
                                                 "hash": "6d3394fbde359dc10c20e8bdf3ad3ee0",
                                                 "children": [
@@ -13138,7 +13138,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "7",
                                                 "hash": "6d3394fbde359dc10c20e8bdf3ad3ee0",
                                                 "children": [
@@ -13185,15 +13185,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T19:34:43",
+                                "lastModified": "2020-06-04T20:23:14",
                                 "name": "fisResource",
-                                "hash": "dfef0d53881e512932bbab8269f07ef9",
+                                "hash": "59874ec3b3b56dac6130e50206696acb",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-04T09:16:48",
+                                        "lastModified": "2020-06-04T20:22:39",
                                         "name": "component_rewards.png",
-                                        "hash": "69c8db192c463bc64248d84c382b85e0",
+                                        "hash": "6f8b38d72a08ca628e40f9ef82e65f50",
                                         "children": ""
                                     },
                                     {
@@ -13233,7 +13233,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "pillars",
                                         "hash": "4152a8b106a319b88ed2f351f2b2a84a",
                                         "children": [
@@ -13290,7 +13290,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "topHeader",
                                         "hash": "8572701ad5b87460d467f429f8f50484",
                                         "children": [
@@ -13377,7 +13377,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T19:34:43",
+                                "lastModified": "2020-06-04T20:08:50",
                                 "name": "Magnifying Hint",
                                 "hash": "7f90e9da650bb95075febda4b6ce8cc4",
                                 "children": [
@@ -13390,7 +13390,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "Material",
                                         "hash": "bc107e5014e69f448605bceaecb6e42a",
                                         "children": [
@@ -13433,7 +13433,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "Script",
                                         "hash": "4ccdc1a575943e1a7454de9f0565a8ff",
                                         "children": [
@@ -13455,7 +13455,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "Texture",
                                         "hash": "8964648c56ae4ad2c16a0ace8a9e1a7f",
                                         "children": [
@@ -13468,7 +13468,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "MagnifyingGlass",
                                                 "hash": "efaffa8412691ccd47dae96b881882b5",
                                                 "children": [
@@ -13501,7 +13501,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T19:34:43",
+                                "lastModified": "2020-06-04T20:08:50",
                                 "name": "MarkerPrefabs",
                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                 "children": [
@@ -13516,7 +13516,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T19:34:43",
+                                "lastModified": "2020-06-04T20:08:50",
                                 "name": "Materials",
                                 "hash": "94e91fbcdff2af13b5f9f3d3607906e0",
                                 "children": [
@@ -13622,19 +13622,19 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T19:34:44",
+                                "lastModified": "2020-06-04T20:08:50",
                                 "name": "Meshes",
                                 "hash": "23a84d06154f4f44be121f1a151242b3",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "DoorOpen",
                                         "hash": "81d4be41fda4be7970bc524726d2119b",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Animations",
                                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                 "children": [
@@ -13656,7 +13656,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Materials",
                                                 "hash": "4a7e75a75236c1ffeed90393acde09c4",
                                                 "children": [
@@ -13678,7 +13678,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Meshes",
                                                 "hash": "f855006996f7614aad54e8ce92545a9b",
                                                 "children": [
@@ -13721,7 +13721,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Textures",
                                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                 "children": [
@@ -13738,13 +13738,13 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:43",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "Explode",
                                         "hash": "35b3cfb97b4092b59057ac18a6ba1476",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Animations",
                                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                 "children": [
@@ -13766,7 +13766,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Materials",
                                                 "hash": "a8e358b74ac6cf0ab608787e62e5ccdc",
                                                 "children": [
@@ -13795,7 +13795,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Meshes",
                                                 "hash": "cfc88439a2e684f2b4e0694f732e93eb",
                                                 "children": [
@@ -15168,7 +15168,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Textures",
                                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                 "children": [
@@ -15192,13 +15192,13 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:44",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "Magic",
                                         "hash": "f2e64f6bd080799e86676bd3caef764e",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:43",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Animations",
                                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                 "children": [
@@ -15220,7 +15220,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Materials",
                                                 "hash": "5db50129e79646857a519b75892cd453",
                                                 "children": [
@@ -15249,7 +15249,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Meshes",
                                                 "hash": "eff15a889789bcec480d363967c730ce",
                                                 "children": [
@@ -16405,7 +16405,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Textures",
                                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                 "children": [
@@ -16422,13 +16422,13 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:44",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "Mark",
                                         "hash": "def661b53b0fc0b26d65bc4cf04a1b4b",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Animations",
                                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                 "children": [
@@ -16450,7 +16450,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Materials",
                                                 "hash": "3ee2a78e22db2d4f0bb1fb8cba1d4818",
                                                 "children": [
@@ -16479,7 +16479,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Meshes",
                                                 "hash": "15107a59a53a26dba1db114028200611",
                                                 "children": [
@@ -16536,7 +16536,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Sound",
                                                 "hash": "def5a6f96a73308a0369c58f3fc82ad5",
                                                 "children": [
@@ -16558,7 +16558,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Textures",
                                                 "hash": "cb7f1e0fee4148917427aa34a8cbc489",
                                                 "children": [
@@ -16591,9 +16591,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-06-04T19:47:16",
+                                "lastModified": "2020-06-04T20:18:29",
                                 "name": "onCardTap.js",
-                                "hash": "5f6012fc977e961da0885a5d32bb16e2",
+                                "hash": "589aa7cbf1b33e6425be721ca8efdb7d",
                                 "children": ""
                             },
                             {
@@ -16619,13 +16619,13 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T19:34:44",
+                                "lastModified": "2020-06-04T20:08:50",
                                 "name": "Scripts",
                                 "hash": "c16f7b19c16f6934e285b49f67504e03",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:44",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "EffectControllers",
                                         "hash": "e0c895229ea068eafd07e168e39bae74",
                                         "children": [
@@ -16705,7 +16705,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T19:34:44",
+                                "lastModified": "2020-06-04T20:08:50",
                                 "name": "Textures",
                                 "hash": "3e836cd9b9f6371fc207cd70e936bd3e",
                                 "children": [
@@ -16888,13 +16888,13 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T19:34:44",
+                                "lastModified": "2020-06-04T20:08:50",
                                 "name": "Tween",
                                 "hash": "084905fca308e6557e5ce203ae5bd9f4",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:44",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "ExampleResources [REMOVE_ME]",
                                         "hash": "8b011891ebbf14641e25475e44ca5def",
                                         "children": [
@@ -16914,7 +16914,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Materials",
                                                 "hash": "76cdf5056d31d7a392f91ab3689d9bfb",
                                                 "children": [
@@ -16950,7 +16950,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Meshes",
                                                 "hash": "26b93da26b65dd34541a3e7e3253f1f1",
                                                 "children": [
@@ -16979,7 +16979,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Textures",
                                                 "hash": "d1fc457a96aa3082bbd3a8ef3daaad47",
                                                 "children": [
@@ -16992,7 +16992,7 @@
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2020-06-04T19:34:44",
+                                                        "lastModified": "2020-06-04T20:08:50",
                                                         "name": "TweenImageTextures",
                                                         "hash": "256b1775c79a3f9e9ec85ac29b878ef1",
                                                         "children": [
@@ -17039,7 +17039,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-04T19:34:44",
+                                        "lastModified": "2020-06-04T20:08:50",
                                         "name": "TweenTypes",
                                         "hash": "e40711bb4f8625c50edc867f0a226ef2",
                                         "children": [
@@ -17052,7 +17052,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-04T19:34:44",
+                                                "lastModified": "2020-06-04T20:08:50",
                                                 "name": "Legacy",
                                                 "hash": "1b3c33a31e2012e2fb122c85002e1df4",
                                                 "children": [
@@ -27224,7 +27224,7 @@
                                 "fileId": "567",
                                 "originalId": "568",
                                 "publicId": "687",
-                                "source": "\/Users\/e5615775\/AndroidStudioProjects\/githubInnovate48\/innovate48\/SnapLens\/Public\/fisResource\/component_rewards.png",
+                                "source": "C:\/Projects\/innovate48\/Innovate48Snap\/Public\/fisResource\/component_rewards.png",
                                 "additional": ""
                             },
                             {
@@ -27417,7 +27417,16 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1591078374560518:1459725",
+                        "path_list": [
+                            "onCardTap"
+                        ]
+                    }
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
