@@ -3,7 +3,7 @@
     "document_id": "8SE3YKxjxKRK7P0BWnDT",
     "original_document_id": "VKppCNiNZOJLQXrHY_gD",
     "version": "23",
-    "lastChanged": "1591328029317",
+    "lastChanged": "1591385586522",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -115,7 +115,10 @@
                     "1591244997322096:2816930",
                     "1591246362551516:3122141",
                     "1591290059020349:66999",
-                    "1591305791594348:154030"
+                    "1591305683873624:143963",
+                    "1591305791594348:154030",
+                    "1591305793521968:163936",
+                    "1591307725530450:963235"
                 ]
             ]
         },
@@ -27418,13 +27421,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1591078374560518:1459725",
-                        "path_list": [
-                            "onCardTap"
-                        ]
-                    }
+                "objects": [
+                    "1591244571212540:2650605"
                 ]
             }
         },
