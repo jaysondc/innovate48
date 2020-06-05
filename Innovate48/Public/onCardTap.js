@@ -7,54 +7,131 @@ these variables. However, they must be
 */
 
 //@input SceneObject[] allScenes
-// Set the Image component's texture
 
-//script.image.mainPass.baseTex = script.texture;
+
 var count = 0 
 
-for(var i = 0; i < script.allScenes.length; i++){
-//    if(count == i){
-//        script.allScenes[i].enabled = true;
-//    }
-//    else{
-//        script.allScenes[i].enabled = false;
-//    }
-}
-// Set the Image's pivot point
-//script.image.pivot = new vec2(1, 1);
+var rewardDetail = script.allScenes[0]
+var rewardTitle = script.allScenes[3]
 
-//var count = 0 
-//script.cat.mainPass.baseTex = script.pics[count] //mainPass allows us to reference to cat and base Text references to the base texture of that which is a picture of my cat
-print("Tap Initialize")
+var transactionsDetail = script.allScenes[1]
+var transactionTitleLeft = script.allScenes[4]
+var transactionTitleRight = script.allScenes[5]
+
+var spendingDetail = script.allScenes[2]
+var spendingTitle = script.allScenes[6]
+
+var navigation = script.allScenes[7]
+var details = script.allScenes[8]
+
+var SCREEN = {
+    REWARDS: 0,
+    TRANSACTIONS: 1,
+    SPENDING: 2
+}
+
+// Initial State
+var currentState = SCREEN.TRANSACTIONS
+
+
+// END INIT
+
+print("Tap script initialized...")
 function onTapped(eventData)
 {
     
-   if(eventData.getTapPosition().x > .5){
-        count++;
+   if(eventData.getTapPosition().x < .5){   // TAP LEFT
+        
+        switch (currentState) {
+            case SCREEN.REWARDS: 
+                rewardsToTransaction()
+                currentState = SCREEN.TRANSACTIONS
+                break
+            case SCREEN.TRANSACTIONS:
+                transactionToSpending()
+                currentState = SCREEN.SPENDING
+                break
+            case SCREEN.SPENDING:
+                // Nothing
+                break
+        }
+        
     }
-    else{
-        count--;
+    else {                                   // TAP RIGHT
+        switch (currentState) {
+            case SCREEN.REWARDS: 
+                // Nothing
+                break
+            case SCREEN.TRANSACTIONS:
+                transactionToRewards()
+                currentState = SCREEN.REWARDS
+                break
+            case SCREEN.SPENDING:
+                spendingToTransaction()
+                currentState = SCREEN.TRANSACTIONS
+                break
+        }
     }
     
-    if(count >= script.allScenes.length){
-        count = 0;
-    }
-    
-    if(count < 0){
-        count = script.allScenes.length - 1
-    }
-    
-//    for(var i = 0; i < script.allScenes.length; i++){
-//    if(count == i){
-//        script.allScenes[i].enabled = true;
-//    }
-//    else{
-//        script.allScenes[i].enabled = false;
-//    }
-//}
-//   print("value of count : " + count )
-//    print("Tap Position: (" + eventData.getTapPosition().x + ", " + eventData.getTapPosition().y + ")");
+
 }
+
+
+function transactionToRewards() {
+//    // Fade
+//    global.tweenManager.startTween(transactionsDetail, "fade out")
+//    global.tweenManager.startTween(rewardDetail, "fade in")
+//    
+//    global.tweenManager.startTween(details, "nav left")
+//    
+//    // Navigation
+//    global.tweenManager.startTween(navigation, "nav left")
+//    
+//    global.tweenManager.startTween(transactionTitleLeft, "fade in")
+//    global.tweenManager.startTween(rewardTitle, "fade out")
+}
+
+function transactionToSpending() {
+//    // Details
+//    global.tweenManager.startTween(transactionsDetail, "fade out")
+//    global.tweenManager.startTween(spendingDetail, "fade in")
+//    
+//    global.tweenManager.startTween(details, "nav right")
+//    
+//    // Navigation
+//    global.tweenManager.startTween(navigation, "nav right")
+//    
+//    global.tweenManager.startTween(transactionTitleRight, "fade in")
+}
+
+function rewardsToTransaction() {
+//    // Details
+//    global.tweenManager.startTween(rewardDetail, "fade out")
+//    global.tweenManager.startTween(transactionsDetail, "fade in")
+//    
+//    global.tweenManager.startTween(details, "nav right")
+//    
+//    // Navigation
+//    global.tweenManager.startTween(navigation, "nav right")
+//    
+//    global.tweenManager.startTween(transactionTitleLeft, "fade in")
+//    global.tweenManager.startTween(rewardTitle, "fade out")    
+
+
+}
+
+function spendingToTransaction() {
+//    // Details
+//    global.tweenManager.startTween(spendingDetail, "fade out")
+//    global.tweenManager.startTween(transactionsDetail, "fade in")
+//    
+//    global.tweenManager.startTween(details, "nav left")
+//    
+//    // Navigation
+//    global.tweenManager.startTween(navigation, "nav left")
+}
+
+
 
 var event = script.createEvent("TapEvent");
 event.bind(onTapped);
