@@ -59,6 +59,10 @@ Data Visualization
 
 and many more..
 
+## Screenshots
+
+![Screenshot](./assets/screenshot.png)
+
 # WestMob
 
 ## Team Members
